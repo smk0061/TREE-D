@@ -38,7 +38,7 @@ python tree-d_ann_creation.py \
 - `output_json`: Path for generated JSON annotation file
 - `--taxonomy`: CSV file with taxonomic information
 - `--image-metadata`: CSV file with image metadata
-- `--contributor`: Contributor/Research Team Name (Required)
+- `--contributor`: Contributor/Research Team Name
 - `--description`: Dataset description
 
 ### Example
