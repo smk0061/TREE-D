@@ -78,12 +78,12 @@ The image metadata CSV defines the image attributes and sensor specifications.
 #### Example for RGB image:
 ```bash
 file_name,sensor,image_type,date_captured
-WVUResearchForest.tif,Sentera6X,RGB,2025-08-31
+WVUResearchForest.tif,Sentera6X,RGB,2025-08-21
 ```
 #### Example for multispectral image:
 ```bash
-file_name,sensor,image_type,blue_wavelength,blue_bandwidth,green_wavelength,green_bandwidth,red_wavelength,red_bandwidth,redEdge_wavelength,redEdge_bandwidth,nir_wavelength,nir_bandwidth
-MS_WVUResearchForest.tif,Sentera6X,Multispectral,475,30,550,20,670,30,715,10,840,20
+file_name,sensor,image_type,date_captured,blue_wavelength,blue_bandwidth,green_wavelength,green_bandwidth,red_wavelength,red_bandwidth,redEdge_wavelength,redEdge_bandwidth,nir_wavelength,nir_bandwidth
+MS_WVUResearchForest.tif,Sentera6X,Multispectral,2025-08-21,475,30,550,20,670,30,715,10,840,20
 ```
 #### Shapefile Requirements
 - Must contain polygon geometries for tree crowns.
