@@ -9,6 +9,6 @@ Learn more at https://treefund.org/
 
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <img src="repo_imgs/NRAC_Davis_Logo2025_Smaller.jpg" alt="NRAC Logo" width="200"/>
-    <img src="repo_imgs/TREE-Fund-Logo-No-Tag-3_2-1-784x445.png" alt="TREEFund Logo" width="200"/>
+    <img src="repo_imgs/NRAC_Davis_Logo2025_Smaller.jpg" alt="NRAC Logo" width="300" height="300" style="object-fit: contain;"/>
+    <img src="repo_imgs/TREE-Fund-Logo-No-Tag-3_2-1-784x445.png" alt="TREEFund Logo" width="300" height="300" style="object-fit: contain;"/>
 </div>
