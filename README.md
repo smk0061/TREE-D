@@ -57,8 +57,37 @@ python tree-d_ann_creation.py \
 #### Taxonomy CSV
 The taxonomy CSV defines the taxonomic hierarchy for included families/genera/species.
 #### Required columns:
-- `id`: Numeric identifier for each species (referenced in shapefile). See <b>Species Dictionary</b> for further clarification
-
+- `id`: Numeric identifier for taxonomy (referenced in shapefile). See <b>Species Dictionary</b> for more information.
+- `family`: Taxonomic family name (required).
+#### Optional columns:
+- `genus`: Genus name (defaults to "Unspecified" if missing).
+- `species`: Species name (defaults to "sp." if missing).
+#### Example taxonomy.csv:
+```bash
+id,family,genus,species
+1,Pinaceae,Pinus,strobus
+2,Fagaceae,Quercus,rubra
+3,Aceraceae,Acer,saccharum
+4,Juglandaceae,,
+```
+#### Image Metadata CSV
+The image metadata CSV defines the image attributes and sensor specifications.
+#### Required columns:
+- `file_name`: Exact filename of the image (with extension).
+- `sensor`: Camera or sensor used.
+#### Example for RGB image:
+```bash
+file_name,sensor,image_type,date_captured
+WVUResearchForest.tif,Sentera6X,RGB,2025-08-31
+```
+#### Example for multispectral image:
+```bash
+file_name,sensor,image_type,blue_wavelength,blue_bandwidth,green_wavelength,green_bandwidth,red_wavelength,red_bandwidth,redEdge_wavelength,redEdge_bandwidth,nir_wavelength,nir_bandwidth
+MS_WVUResearchForest.tif,Sentera6X,Multispectral,475,30,550,20,670,30,715,10,840,20
+```
+#### Shapefile Requirements
+- Must contain polygon geometries for tree crowns.
+- Each polygon must have a `species_id` attribute that matches an `id` in the taxonomy CSV.
 ### Acknowledgements:<br>
 Funding for this project has been provided through the Tree Research & Education Endowment Fund and the Utility Arborist Research Fund<br>
 Learn more at https://treefund.org/
