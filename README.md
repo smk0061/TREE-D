@@ -41,7 +41,7 @@ python tree-d_ann_creation.py \
 - `--contributor`: Contributor/Research Team Name
 - `--description`: Dataset description
 
-### Example
+### Script Example
 ```bash
 python tree-d_ann_creation.py \
     data/tree_crowns.shp \
@@ -52,6 +52,12 @@ python tree-d_ann_creation.py \
     --contributor "NRAC Research Team" \
     --description "WVU Forest Mapping Project 2025"
 ```
+
+### Required Input Files
+#### Taxonomy CSV
+The taxonomy CSV defines the taxonomic hierarchy for included families/genera/species.
+#### Required columns:
+- `id`: Numeric identifier for each species (referenced in shapefile). See <b>Species Dictionary</b> for further clarification
 
 ### Acknowledgements:<br>
 Funding for this project has been provided through the Tree Research & Education Endowment Fund and the Utility Arborist Research Fund<br>
