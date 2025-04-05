@@ -53,7 +53,7 @@ python tree-d_ann_creation.py \
     --description "WVU Forest Mapping Project 2025"
 ```
 
-Acknowledgements:<br>
+### Acknowledgements:<br>
 Funding for this project has been provided through the Tree Research & Education Endowment Fund and the Utility Arborist Research Fund<br>
 Learn more at https://treefund.org/
 
