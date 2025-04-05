@@ -1,10 +1,11 @@
 # TREE-D
 Open-source UAS imagery dataset with detailed tree species annotations. Includes standardized protocols for RGB, multispectral and LiDAR data collection. Data integrity standards ensures consistent, public contributions for machine learning model development. MIT Licensed.
 
-Product of the West Virginia University Natural Resource Analysis Center (NRAC)
+Product of the West Virginia University Natural Resource Analysis Center (NRAC)<br>
+Visit us at https://www.nrac.wvu.edu/
 
 Acknowledgements:<br>
-Funding for this project has been provided through the Tree Research & Education Endowment Fund and the Utility Arborist Research Fund.<br>
+Funding for this project has been provided through the Tree Research & Education Endowment Fund and the Utility Arborist Research Fund<br>
 Learn more at https://treefund.org/
 
 
