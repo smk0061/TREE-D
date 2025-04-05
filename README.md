@@ -3,6 +3,6 @@ Open-source UAS imagery dataset with detailed tree species annotations. Includes
 
 Product of the West Virginia University Natural Resource Analysis Center (NRAC)
 
-Acknowledgements:
-Funding for this project has been provided through the Tree Research & Education Endowment Fund and the Utility Arborist Research Fund.
+Acknowledgements:<br>
+Funding for this project has been provided through the Tree Research & Education Endowment Fund and the Utility Arborist Research Fund.<br>
 Learn more at https://treefund.org/
