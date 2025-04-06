@@ -4,7 +4,7 @@ Open-source UAS imagery dataset with detailed tree species annotations. Includes
 Product of the West Virginia University Natural Resource Analysis Center (NRAC)<br>
 Visit us at https://www.nrac.wvu.edu/ or contact lnkinder@mail.wvu.edu with contributions.
 
-*This is an early version of this product. Future work will involve creating a web portal for submitting contributions and generating custom datasets with selected species and image attributes.*
+*This is an early version of this product. Future work will involve creating a web portal for submitting contributions and generating custom datasets with selected species and image attributes.*<br>
 *The <b>Species Dictionary</b> is still under construction. Contributions will still be accepted but will be changed in the future to match `id` values.*
 
 ## Requirements
