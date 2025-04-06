@@ -2,7 +2,9 @@
 Open-source UAS imagery dataset with detailed tree species annotations. Includes standardized protocols for RGB, multispectral and LiDAR data collection. Data integrity standards ensures consistent, public contributions for machine learning model development. MIT Licensed.
 
 Product of the West Virginia University Natural Resource Analysis Center (NRAC)<br>
-Visit us at https://www.nrac.wvu.edu/
+Visit us at https://www.nrac.wvu.edu/ or contact lnkinder@mail.wvu.edu with contributions.
+
+*The <b>Species Dictionary</b> is still under construction. Contributions will still be accepted but will be changed in the future to match `id` values.*
 
 ## Requirements
 ### System Requirements
