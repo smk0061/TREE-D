@@ -92,7 +92,7 @@ MS_WVUResearchForest.tif,Sentera6X,Multispectral,2025-08-21,475,30,550,20,670,30
 #### Shapefile Requirements
 - Must contain polygon geometries for tree crowns.
 - Each polygon must have a `species_id` attribute that matches an `id` in the taxonomy CSV.
-### Acknowledgements:<br>
+## Acknowledgements:
 Funding for this project has been provided through the Tree Research & Education Endowment Fund and the Utility Arborist Research Fund<br>
 Learn more at https://treefund.org/
 
