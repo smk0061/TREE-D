@@ -86,11 +86,19 @@ def process_image(img_path, image_id, image_metadata=None):
         
         meta = image_metadata[file_name]
         
-        required_fields = ["sensor"]
+        required_fields = ["sensor", "image_type", "date_captured"]
         for field in required_fields:
             if field not in meta:
                 print_status(f"Required field '{field}' missing from metadata for {file_name}", "ERROR")
                 return None
+        
+        try:
+            date_obj = datetime.strptime(meta["date_captured"], "%Y-%m-%d")
+            image["date_captured"] = meta["date_captured"]
+            image["julian_day"] = str(date_obj.timetuple().tm_yday)
+        except ValueError as e:
+            print_status(f"Invalid date format in metadata for {file_name}. Expected YYYY-MM-DD", "ERROR")
+            return None
         
         for key, value in meta.items():
             if key == 'file_name':
